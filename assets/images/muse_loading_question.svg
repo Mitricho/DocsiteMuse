@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg80" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+ <g id="g1159" fill="none" stroke-linejoin="round" stroke-width="4.2632">
+  <animateTransform attributeName="transform" dur="5s" from="0 50 50" repeatCount="indefinite" to="360 50 50" type="rotate"/>
+  <path id="path871" d="m20.225 87.49c-1.4094-1.1222-2.7702-2.3355-4.0745-3.6397-13.952-13.951-17.491-34.372-10.619-51.606" stroke="#00b0ff" style="paint-order:markers fill stroke"/>
+  <path id="path869" d="m5.5315 32.244c2.3363-5.8588 5.8759-11.349 10.619-16.092 9.3473-9.3471 21.598-14.021 33.85-14.021" stroke="#ff75b6" style="paint-order:markers fill stroke"/>
+  <path id="path867" d="m50 2.1316c12.251-7e-7 24.502 4.6736 33.85 14.021 4.8398 4.8397 8.4266 10.458 10.761 16.452" stroke="#ee1c60" style="paint-order:markers fill stroke"/>
+  <path id="path865" d="m94.61 32.604c6.6811 17.158 3.0943 37.392-10.761 51.246-1.3996 1.3995-2.8642 2.6943-4.3843 3.8843" stroke="#f7b712" style="paint-order:markers fill stroke"/>
+  <path id="path844" d="m79.465 87.735c-17.367 13.596-41.96 13.515-59.241-0.24459" stroke="#6342c6" style="paint-order:markers fill stroke"/>
+ </g>
+ <text id="text849" x="36.508728" y="74.194145" fill="#3c3c3c" font-family="sans-serif" font-size="71.119px" stroke-width="1.778" style="line-height:1.25" xml:space="preserve"><tspan id="tspan847" x="36.508728" y="74.194145" fill="#3c3c3c" font-family="'Open Sans'" stroke-width="1.778">?</tspan></text>
+</svg>

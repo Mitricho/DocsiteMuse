@@ -1,0 +1,57 @@
+/*@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes bg-slide {
+    from {
+        background-position: 0% 0%
+    }
+    to { 
+        background-position: 100% 0%
+    }
+}
+html {
+  scroll-behavior: smooth;
+}
+html, body{
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;	
+}*/
+@keyframes shadowAnim2 {
+  0%   { box-shadow: inset 0 0 10px #00FF00;}
+  100% { box-shadow: inset 0 0 0px #00FF00; }
+}
+@-webkit-keyframes shadowAnim {
+  0%   { box-shadow: inset 0 0 10px #00FF00; }
+  100% { box-shadow: inset 0 0 0px #00FF00;  }
+}
+@keyframes shadowAnim {
+  0%   { box-shadow: inset 0 0 10px #00FF00;}
+  100% { box-shadow: inset 0 0 0px #00FF00; }
+}
+@-webkit-keyframes shadowAnim {
+  0%   { box-shadow: inset 0 0 10px #00FF00; }
+  100% { box-shadow: inset 0 0 0px #00FF00;  }
+}
+*:target{
+  animation: shadowAnim 2s 1 forwards;
+}

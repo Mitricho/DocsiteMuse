@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg105" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="hmenu">
+  <rect id="rect2" transform="scale(1,-1)" x="83.034" y="-122.87" width="24.946" height="23.491" rx=".80181" ry=".80181" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  <rect id="rect4" transform="scale(1,-1)" x="84.712" y="-121.05" width="21.592" height="20.295" rx=".88092" ry=".88092" fill="#fff" style="paint-order:markers stroke fill"/>
+  <rect id="rect6" transform="scale(1,-1)" x="83.034" y="-113.24" width="24.946" height="4.8109" rx=".80181" ry=".80181" fill="#0076d1" style="paint-order:markers stroke fill"/>
+ </g>
+ <g id="banner" transform="translate(0 -.14249)">
+  <rect id="rect9" x="-71.438" y="105.01" width="24.946" height="17.86" rx=".80181" ry=".80181" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  <rect id="rect11" x="-71.438" y="99.523" width="24.946" height="4.8109" rx=".80181" ry=".80181" fill="#0076d1" style="paint-order:markers stroke fill"/>
+  <rect id="rect13" x="-69.76" y="106.38" width="21.592" height="15.118" rx=".88092" ry=".88092" fill="#fff" style="paint-order:markers stroke fill"/>
+ </g>
+ <g id="cover">
+  <rect id="rect16" x="-32.82" y="105.01" width="24.946" height="17.86" rx=".80181" ry=".80181" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  <rect id="rect18" x="-32.82" y="99.523" width="24.946" height="4.8109" rx=".80181" ry=".80181" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  <rect id="rect20" x="-31.142" y="106.38" width="21.592" height="8.8677" rx=".88092" ry=".88092" fill="#0076d1" style="paint-order:markers stroke fill"/>
+  <rect id="rect22" x="-31.142" y="116.96" width="21.592" height="4.6607" rx=".88092" ry=".88092" fill="#fff" style="paint-order:markers stroke fill"/>
+ </g>
+ <g id="footer">
+  <rect id="rect25" transform="scale(1,-1)" x="5.7979" y="-117.38" width="24.946" height="17.86" rx=".80181" ry=".80181" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  <rect id="rect27" transform="scale(1,-1)" x="5.7979" y="-122.87" width="24.946" height="4.8109" rx=".80181" ry=".80181" fill="#0076d1" style="paint-order:markers stroke fill"/>
+  <rect id="rect29" transform="scale(1,-1)" x="7.4759" y="-116.01" width="21.592" height="15.118" rx=".88092" ry=".88092" fill="#fff" style="paint-order:markers stroke fill"/>
+ </g>
+ <g id="page">
+  <rect id="rect32" x="44.416" y="99.809" width="24.946" height="23.065" rx=".80181" ry=".80181" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  <rect id="rect34" x="46.094" y="103.53" width="21.592" height="16.61" rx=".88092" ry=".88092" fill="#fff" style="paint-order:markers stroke fill"/>
+ </g>
+ <g id="help">
+  <rect id="rect37" x="-106.57" y="99.657" width="22.819" height="22.819" rx="0" ry="0" fill="#fff" fill-opacity=".11588" style="paint-order:markers fill stroke"/>
+  <rect id="rect39" x="-105.38" y="100.85" width="20.427" height="20.427" rx="9.5512" ry="10.214" fill="#cbe4f5" stroke="#929292" stroke-opacity=".33047" stroke-width=".84679" style="paint-order:markers stroke fill"/>
+  <text id="text43" x="-98.896507" y="116.26616" fill="#0076d1" font-family="sans-serif" font-size="35.026px" letter-spacing="0px" stroke-width=".87566" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan id="tspan41" x="-98.896507" y="116.26616" fill="#0076d1" font-size="14.011px" stroke-width=".87566">?</tspan></text>
+ </g>
+ <g id="palette" transform="matrix(1 0 0 -1 0 222.13)">
+  <rect id="rect864" x="-139.02" y="99.403" width="7.5744" height="6.9033" fill="#0076d1" style="paint-order:markers fill stroke"/>
+  <use id="use47" transform="translate(8.677)" width="100%" height="100%" opacity=".72812" xlink:href="#rect864"/>
+  <use id="use49" transform="translate(17.354)" width="100%" height="100%" opacity=".5375" xlink:href="#rect864"/>
+  <use id="use51" transform="translate(8.677,8.2124)" width="100%" height="100%" opacity=".59375" xlink:href="#rect864"/>
+  <use id="use53" transform="translate(17.354,8.2124)" width="100%" height="100%" opacity=".525" xlink:href="#rect864"/>
+  <use id="use55" transform="translate(0,8.2124)" width="100%" height="100%" opacity=".656" xlink:href="#rect864"/>
+  <use id="use57" transform="translate(8.677,16.425)" width="100%" height="100%" opacity=".36" xlink:href="#rect864"/>
+  <use id="use59" transform="translate(17.354,16.425)" width="100%" height="100%" opacity=".36" xlink:href="#rect864"/>
+  <use id="use61" transform="translate(0,16.425)" width="100%" height="100%" opacity=".36" xlink:href="#rect864"/>
+ </g>
+ <g id="gallery">
+  <g id="g70" stroke-width=".81663">
+   <rect id="rect64" transform="matrix(.93655 -.35054 .77435 .63276 0 0)" x="-235.54" y="50.299" width="16.643" height="13.08" rx=".679" ry=".76218" fill="#0076d1" style="paint-order:markers stroke fill"/>
+   <rect id="rect66" transform="matrix(.93655 -.35054 .77435 .63276 0 0)" x="-231.47" y="45.382" width="16.643" height="13.08" rx=".679" ry=".76218" fill="#68beff" style="paint-order:markers stroke fill"/>
+   <rect id="rect68" transform="matrix(.93655 -.35054 .77435 .63276 0 0)" x="-227.41" y="40.466" width="16.643" height="13.08" rx=".679" ry=".76218" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  </g>
+ </g>
+ <g id="loadproject">
+  <rect id="rect73" x="-221.19" y="98.444" width="22.819" height="22.819" rx="0" ry="0" fill="#fff" fill-opacity=".11588" style="paint-order:markers fill stroke"/>
+  <rect id="rect75" transform="matrix(.93655 -.35054 .77435 .63276 0 0)" x="-263.06" y="30.645" width="16.643" height="13.08" rx=".679" ry=".76218" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  <path id="path77" d="m-213.93 107.19 2.9443 4.5854 8.4227-10.74" fill="none" stroke="#0076d1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4775"/>
+ </g>
+ <g id="pickcolor">
+  <rect id="rect80" x="-254.07" y="115.83" width="7.5744" height="6.9033" rx="3.4516" ry="3.4516" fill="#fff" style="paint-order:markers fill stroke"/>
+  <g id="g86" transform="matrix(.87797 -.87797 .87797 .87797 -228.48 -99.519)">
+   <path id="path82" transform="translate(115.05)" d="m-248.25 110.25c-0.60397 0-1.1336 0.2971-1.4609 0.75h-1.3516c-0.21247 0-0.38477 0.1723-0.38477 0.38476v1.3418c0 0.21246 0.1723 0.38281 0.38477 0.38281h1.3496c0.32723 0.45406 0.85801 0.75 1.4629 0.75h16.145c1.0001 0 1.8047-0.80461 1.8047-1.8047 0-1.0001-0.80461-1.8047-1.8047-1.8047z" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+   <rect id="rect84" x="-123.41" y="109.18" width="2.5887" height="5.3692" rx=".38351" ry=".38351" fill="#0076d1" style="paint-order:markers stroke fill"/>
+  </g>
+ </g>
+ <g id="settings">
+  <rect id="rect89" x="144.42" y="99.809" width="24.946" height="23.065" rx=".80181" ry=".80181" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  <rect id="rect91" x="146.09" y="103.53" width="21.592" height="16.61" rx=".88092" ry=".88092" fill="#fff" style="paint-order:markers stroke fill"/>
+  <g id="g3219" transform="translate(21.636 -.50996)">
+   <circle id="circle93" cx="128.25" cy="107.69" r="1.7849" fill="#0076d1"/>
+   <rect id="rect95" x="131.06" y="106.83" width="12.76" height="1.7058" rx=".73788" ry=".73788" fill="#0076d1"/>
+  </g>
+  <use id="use98" transform="translate(1e-6,4.6746)" width="100%" height="100%" xlink:href="#g3219"/>
+  <use id="use100" transform="translate(1e-6,9.3493)" width="100%" height="100%" xlink:href="#g3219"/>
+ </g>
+ <g id="recent">
+  <g>
+   <rect id="rect64-9" transform="matrix(.93655 -.35054 .77435 .63276 0 0)" x="-323.42" y="1.6158" width="16.643" height="13.08" rx=".679" ry=".76218" fill="#0076d1" style="paint-order:markers stroke fill"/>
+   <rect id="rect66-3" transform="matrix(.93655 -.35054 .77435 .63276 0 0)" x="-321.7" y="-.45621" width="16.643" height="13.08" rx=".679" ry=".76218" fill="#68beff" style="paint-order:markers stroke fill"/>
+   <rect id="rect68-2" transform="matrix(.93655 -.35054 .77435 .63276 0 0)" x="-319.99" y="-2.5317" width="16.643" height="13.08" rx=".679" ry=".76218" fill="#cce4f4" style="paint-order:markers stroke fill"/>
+  </g>
+  <circle id="path972" cx="-289.68" cy="107.82" r="7.7452" fill="#fff" stroke="#68beff" stroke-linecap="round" stroke-width=".89496"/>
+  <path id="path980" d="m-292.95 105.11 3.2754 2.8247 4.9582-4.9282" fill="none" stroke="#0076d1" stroke-linecap="round" stroke-width="2"/>
+ </g>
+ 
+  <script id="script103">var m=location.hash.substr(1,location.hash.length);var b = document.getElementById(m).getBBox();document.getElementsByTagName('svg')[0].setAttribute('viewBox',b.x + ' ' + b.y + ' ' + b.width + ' ' + b.height);</script>
+</svg>

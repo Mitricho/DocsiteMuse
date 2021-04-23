@@ -1,0 +1,261 @@
+/*---- Start bad lact css code overrrides ---------*/
+input[type=text], input[type=password], textarea, select{
+    max-width:100%!Important;
+    margin-bottom:0.2rem;
+}
+hr{opacity:0;}
+#contact_developers_form textarea{
+    background:unset!Important;
+    width: 100%!Important;
+}
+.la_more_design_template_css,.la_publish_template{
+    border:none!Important;
+}
+img.media-object{
+    margin-bottom:0.3rem!Important;
+}
+.widgetbox label,.new_right_widget_content label{
+    display: inline;
+}
+.widgetbox input[type="submit"]{
+    font-size:88%;
+}
+.widgetbox,.new_right_widget_content{
+    position: relative;
+    padding: 0.5rem;
+    background: rgba(255,255,255,1.0);
+    border: 2px dashed #cdcdcd;
+    margin-bottom: 1rem;
+    line-height: 120%;
+}
+.art-Post h1 a, a.la_sidemenu_first{
+    color: inherit!Important;
+}
+h3, .h3,.widget_handle, h1.editor{
+    font-size: 1.75rem;
+    border:none!Important;
+    line-height:1;
+}
+a[href ^="mailto:"], a.mailing{
+    padding:unset!Important;
+    background:unset!Important;
+}
+.biglebedevtokmakovr{
+    line-height: 1.0;
+}
+.list-group{
+    margin-bottom:1rem;
+}
+.list-group-item{
+    line-height: 1.25;
+}
+.side-links,.setup-links,.widget_handle, h1.editor,#mudroslov_widget .quote_author{
+    line-height: 100%!Important;
+}
+#mudroslov_widget a.mudroslov_link{
+    font-size:smaller!Important;
+    font-family: inherit;
+    border:none!Important;
+}
+#mudroslov_widget{
+    font:inherit!Important;
+    font-family: inherit!Important;
+}
+.lact-footer-stuff{
+    margin: 0;
+    padding: 1rem;
+}
+a.button span {
+    background:unset!Important;
+    display:unset!Important;
+    line-height:unset!Important;
+    padding:unset!Important;
+}
+.highslide a img{
+    transition: all 0.5s ease;
+}
+.highslide a img:hover{
+    margin-top: -1rem;
+}    
+.biglebedevtokmakovr{
+    font-size:88%;
+}
+#contact_developers_form small{
+    display:block;
+    padding: 0.22rem;
+}
+#contact_developers_form{
+    line-height: 100%;
+    padding-bottom: 0.7rem;
+}
+span.editor {
+    border:unset!important;
+}
+a.editor, a.la_editor_link{
+    line-height: 100%;
+    border-radius: 0.3rem!Important;
+    padding: 0.3rem 0.6rem;
+    display: inline-block;
+    text-align: center;
+	margin-bottom:0.6rem;
+}
+#left_widgets a.editor, 
+#left_widgets a.la_editor_link,
+#right_widgets a.editor,
+#right_widgets a.la_editor_link
+{
+    width: 100%;
+}
+center>a.editor, center>a.la_editor_link{
+    width:auto!Important;
+}
+a.button:hover,a.editor:hover, a.la_editor_link:hover{
+	color: #555!Important;
+	background-color: #bbb;
+}
+a.button,a.editor, a.la_editor_link{
+
+	display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 0.3rem 1rem 0.3rem 1rem!Important;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    overflow: visible;
+    font: bold 16px arial, helvetica, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #555!Important;
+    background-color: #ddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+    -webkit-transition: background-color .2s ease-out;
+    -moz-transition: background-color .2s ease-out;
+    -ms-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    background-clip: padding-box;
+    -moz-border-radius: 2px!Important;
+    -webkit-border-radius: 2px!Important;
+    border-radius: 2px!Important;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+    text-shadow: 0 1px 0 rgba(255,255,255, .9);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	height:unset!Important;
+}
+legend {
+    border:unset!important;
+    border-right:unset!important;
+    border-bottom:unset!important;
+    padding:unset!important;
+    background-color:unset!important;
+    color:inherit!important;
+}
+#design_hint_area {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 270px;
+    height:auto!Important;
+    color: inherit;
+    background-color:rgba(255,255,255,0.76)!Important;
+    border: 2px dashed #ff9c4a;
+    z-index: 1000;
+    padding: 0.3rem 1rem 0.3rem 1rem!Important;
+    line-height: 100%;
+    opacity: 1.0;
+    border-radius:5px;
+    text-align:left!Important;
+}
+#design_hint_area a:hover{
+    color:#03bd03!Important;
+}
+#design_hint_area:hover,a.editor:hover{
+
+}
+*[style='color:red']{
+    color:#ff0047!Important;
+}
+p[style='color:red']{
+    color: #c35100!Important;
+    padding: 0.3rem 1rem;
+    background: #ffc107;
+    border-radius: 0.3rem;
+}
+p[style='color:green']{
+    color: #008000!Important;
+    padding: 0.3rem 1rem;
+    background: #97e284;
+    border-radius: 0.3rem;
+}
+.highslide img{
+    border:none!Important;
+    box-shadow: 0 0 12px rgba(0,0,0,0.29);
+}
+.la_mainpage_sitemap_table td.a_info_td{
+    padding-left:0!Important;
+}
+fieldset ul {
+  list-style: none; /* Remove default bullets */
+}
+fieldset ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: inherit; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+form small, form .small {
+    display: inline-block;
+}
+.active-scaffold-header h1,
+.active-scaffold-header h2,
+.active-scaffold-header h3,
+.active-scaffold-header h4,
+.active-scaffold-header div.actions a,
+.ui-widget{
+    font: inherit;
+    font-size: inherit;
+}
+.la_o2robot_item{
+    padding:0.3rem!Important;
+    height:80px!Important;
+}
+.ui-widget-header{
+    border:none;
+    background:unset;
+    color:inherit;
+    font-weight:inherit;
+}
+.ui-widget-content{
+    border:none;
+    background:#ffffff;
+    color:inherit;
+    box-shadow:0 0 12px rgba(0,0,0,0.2);
+}
+.la_comments_area{
+    margin-top: 3.5rem;
+}
+table.doctable {
+    border-collapse:unset!Important;
+}
+table.doctable tr:nth-child(odd) {
+    background:transparent!Important;
+}
+#lineact_hint_area{
+    height:unset!Important;
+}
+/*---- End bad lact css code overrrides ---------*/

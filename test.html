@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Docsite Muse (β)</title>
+    <meta charset="utf-8">
+    <style>
+    html,body{
+        background-color: #ffffff;
+    }
+    .hidpi{
+        transform-origin: 0 0;
+    }
+    body.panel{
+        overflow:hidden;
+    }
+    body.panel:before{
+        z-index: 1900;
+        content:"";
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-repeat:no-repeat;
+        background-color: #ffffff;/*008df7*/
+        background-image:url('assets/images/muse_loading.svg');
+        background-position:center center;
+        background-size:11.25rem 11.25rem;
+    }
+    </style>
+    <script>
+    window.paceOptions = {
+        ajax: false,
+        restartOnRequestAfter: false,
+    };
+    </script>    
+    <script src="assets/js/pace.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta http-equiv="Cache-Control" content="public, max-age=0, must-revalidate">
+    <meta name="robots" content="all">
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap&subset=cyrillic" >
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" >
+    <link rel="stylesheet" href="assets/css/animate.css" >
+    <link rel='stylesheet' href='assets/css/spectrum.css'>
+    <link rel="stylesheet" href="assets/css/editoronly.css" type="text/css" >
+    <script src="assets/js/jquery.js"></script>
+    <script src='assets/js/spectrum.js'></script>
+</head>
+<body class="panel">
+<iframe src="http://www.lineactworld.com/admin/follow/engine/manage_pics" style="width:100%;height:100%"></iframe>    
+<script>
+$( document ).ready(function() {
+    //console.log( "ready!" );
+    /*let req = $.ajax({url:'http://www.lineactworld.com/admin/follow/engine/manage_pics'});
+    $.when(req).done(function(response){
+        console.log("response: " + response);
+    }).fail(function(response){
+       console.log( "Failed" );
+    });*/
+});
+</script>
+</body>
+</html>

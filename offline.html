@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Docsite Muse (β)</title>
+    <meta charset="utf-8">
+    <link rel="manifest" href="manifest.webmanifest">
+    <style>
+    html,body{
+        background-color: #ffffff;
+        padding:0;
+        margin:0;
+        height:100%;
+    }
+    body{
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #333;
+        text-align: center;
+        background-color: white;
+        display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: -webkit-flex;
+    	-webkit-align-items: center;
+    	display: flex;
+    	align-items: center;
+    }
+    .hidpi{
+        transform-origin: 0 0;
+    }
+    body.panel{
+        overflow:hidden;
+    }
+    .storagesize{
+        height:unset!Important;
+    }
+    .message{
+        width:20rem;
+        height:14rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .message h3{
+        height:2rem;
+    }
+    .message button{
+        height:3rem;
+        padding: 0.5rem;
+        background: #0063cc;
+        border-radius: 0.25rem;
+        color: #ffffff;
+        text-align: center;
+        margin: 0.25rem;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        outline:#0063cc;
+        border:none;
+    }
+    .message button:active{
+      outline:#0063cc;
+      border:none;
+    }
+    .icon{
+        width:8rem;
+        height:8rem;
+        display: inline-block;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-image: url("data:image/svg+xml,%3Csvg id='svg80' version='1.1' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs id='defs47'%3E%3ClinearGradient id='linearGradient906-9' x1='741.9' x2='741.9' y1='890.7' y2='864.53' gradientUnits='userSpaceOnUse'%3E%3Cstop id='stop900-4' stop-color='%23838385' offset='0'/%3E%3Cstop id='stop902-8' stop-color='%23cfcfcf' offset='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='g1159' transform='matrix(.97084 0 0 .97084 1.4578 1.4577)' fill='none' stroke-linejoin='round' stroke-width='6'%3E%3Cpath id='path871' d='m20.225 87.49c-1.4094-1.1222-2.7702-2.3355-4.0745-3.6397-13.952-13.951-17.491-34.372-10.619-51.606' stroke='%2300b0ff' style='paint-order:markers fill stroke'/%3E%3Cpath id='path869' d='m5.5315 32.244c2.3363-5.8588 5.8759-11.349 10.619-16.092 9.3473-9.3471 21.598-14.021 33.85-14.021' stroke='%23ff75b6' style='paint-order:markers fill stroke'/%3E%3Cpath id='path867' d='m50 2.1316c12.251-7e-7 24.502 4.6736 33.85 14.021 4.8398 4.8397 8.4266 10.458 10.761 16.452' stroke='%23ee1c60' style='paint-order:markers fill stroke'/%3E%3Cpath id='path865' d='m94.61 32.604c6.6811 17.158 3.0943 37.392-10.761 51.246-1.3996 1.3995-2.8642 2.6943-4.3843 3.8843' stroke='%23f7b712' style='paint-order:markers fill stroke'/%3E%3Cpath id='path844' d='m79.465 87.735c-17.367 13.596-41.96 13.515-59.241-0.24459' stroke='%236342c6' style='paint-order:markers fill stroke'/%3E%3C/g%3E%3Cg id='g898' transform='matrix(.20749 0 0 .20749 -103.39 -105.81)'%3E%3Cpath id='path827' d='m879.34 724.31c-4.0568 21.221-19.972 14.979-36.199 14.979s-42.129-33.391-42.129-54.611c0-21.532 34.015-70.215 80.825-62.725 16.227 2.4966 2.4965 77.392-2.4965 102.36z' fill='%233f3f3f' fill-rule='evenodd'/%3E%3Cpath id='path829' d='m600.35 717.76c4.3689 20.908 19.972 14.667 36.199 14.667 16.539 0 42.441-33.391 42.441-54.611s-34.015-69.902-80.825-62.725c-16.227 2.4966-2.4965 77.704 2.1845 102.67z' fill='%233f3f3f' fill-rule='evenodd'/%3E%3Cpath id='path831' d='m742.34 668.14c-86.754 0-157.28 100.8-157.28 138.24 18.724 23.405 64.285 56.172 113.9 67.094 4.3689 10.61 22.781 15.915 43.377 15.915s38.384-7.4896 42.753-18.1l16.539-4.681c52.115-14.667 87.066-38.072 97.988-60.229-6.5534-30.27-70.527-138.24-157.28-138.24z' fill='%23e3e3e3'/%3E%3Cpath id='path833' d='m742.34 705.9c-77.392 0-138.56 76.144-147.61 103.29 20.596 32.767 55.547 48.994 86.442 59.292 39.32 13.106 80.825 12.17 120.46-1.8724 32.455-11.547 79.264-24.965 90.499-57.732-5.9292-25.277-72.399-102.98-149.79-102.98z' fill='%23cfcfcf'/%3E%3Cpath id='path835' d='m815.68 777.98c9.0498 10.298 58.044 55.86 43.689 65.222-22.781 13.419-57.732 23.405-57.732 23.405-9.0499-53.363-40.256-51.179-40.881-79.265-0.31207-15.291 6.8654-25.277 18.1-27.462 14.667-1.8724 26.838 7.1776 36.824 18.1z' fill='%233c3c3c' fill-rule='evenodd'/%3E%3Cpath id='path837' d='m663.39 779.55c-10.298 10.61-56.796 45.873-43.065 58.356 26.838 20.908 61.165 30.583 61.165 30.583 9.9861-54.299 42.753-50.554 43.377-79.265 0.62413-15.603-7.4895-25.901-20.284-28.086-16.227-1.8724-29.958 7.1776-41.193 18.412z' fill='%233c3c3c' fill-rule='evenodd'/%3E%3Cpath id='path839' d='m762.94 829.48c0.62414 32.767-39.32 38.072-39.008 0-2.4965-33.391 15.291-68.342 17.164-109.53 7.8016 39.32 21.22 76.768 21.845 109.53z' fill='%23b9b9b9'/%3E%3Cpath id='path841' d='m785.41 867.86c0 12.17-19.66 22.156-44.001 22.156s-44.001-9.9862-44.001-22.156c0-11.859 19.66-21.845 44.001-21.845s44.001 9.9861 44.001 21.845z' fill='url(%23linearGradient906-9)' fill-rule='evenodd'/%3E%3Cpath id='path843' d='m771.36 854.75c0 14.043-6.2413 22.156-28.398 22.156-19.348 0-28.398-8.1133-28.398-22.156 0-13.731 12.483-24.965 28.398-24.965 15.603 0 28.398 11.234 28.398 24.965z' fill='%230e0e0e'/%3E%3Cpath id='path847' d='m802.26 786.41c-1.8724 6.5534-9.362 9.9861-16.539 7.8017-7.4896-1.8724-11.858-9.05-9.9861-15.603 1.8723-6.5534 9.3619-9.9857 16.851-7.8016 7.1775 2.1844 11.858 9.0499 9.6741 15.603z'/%3E%3Cpath id='path851' d='m814.74 733.67c-8.4257-4.9931-30.27-8.1138-44.937-2.8086' fill='none' stroke='%234a4a4a' stroke-linecap='round' stroke-width='8.7378px'/%3E%3Cpath id='path853' d='m683.67 786.72c1.8724 6.5534 9.3619 9.9861 16.539 7.8017 7.4895-2.1845 11.858-9.05 9.9861-15.603-1.8724-6.5534-9.3619-9.9857-16.851-7.8016-7.1775 1.8724-11.858 9.0499-9.674 15.603z'/%3E%3Cpath id='path845' transform='matrix(1.1517,0,0,1.1517,357.94,366.66)' d='m373.87 352.82c-4.3354 0-7.8574 2.7099-7.8574 6.2324 0 3.2516 3.522 6.2324 7.8574 6.2324s7.8574-2.9808 7.8574-6.2324c0-3.5226-3.522-6.2324-7.8574-6.2324zm-79.121 0.26953c-4.3354 0-7.8574 2.7113-7.8574 5.9629 0 3.5226 3.522 6.2324 7.8574 6.2324s7.8574-2.7099 7.8574-6.2324c-1e-5 -3.2516-3.522-5.9629-7.8574-5.9629zm39.561 50.941c-8.9418 0-15.986 3.2533-15.986 7.0469 0 4.0645 7.0445 7.0449 15.986 7.0449s16.258-2.9804 16.258-7.0449c0-3.7936-7.316-7.0469-16.258-7.0469z' fill='%23414141'/%3E%3Cpath id='path857' d='m671.19 733.67c8.4258-4.681 30.27-8.1138 44.937-2.4966' fill='none' stroke='%234a4a4a' stroke-linecap='round' stroke-width='8.7378px'/%3E%3C/g%3E%3C/svg%3E%0A");
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" >
+</head>
+<body class="panel">
+    <div class="message">
+        <div class="icon"></div>
+        <h3>You are currently offline</h3>
+        <button type="button" onclick="window.location.reload();">⤾ Reload</button>
+    </div>
+</body>
+</html>

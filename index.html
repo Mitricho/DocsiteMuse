@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Docsite Muse (β)</title>
+    <meta charset="utf-8">
+    <link rel="manifest" href="manifest.webmanifest">
+    <style>
+    html,body{
+        background-color: #ffffff;
+    }
+    .hidpi{
+        transform-origin: 0 0;
+    }
+    body.panel{
+        overflow:hidden;
+    }
+    body.panel:before{
+        z-index: 1900;
+        content:"";
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-repeat:no-repeat;
+        background-color: #ffffff;/*008df7*/
+        background-image:url('assets/images/muse_loading.svg');
+        background-position:center center;
+        background-size:11.25rem 11.25rem;
+    }
+    .pace{
+      -webkit-pointer-events: none;
+      pointer-events: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+    .pace-inactive {
+      display: none;
+    }
+    .pace .pace-progress {
+      background: #008df7;
+      position: fixed;
+      z-index: 2000;
+      top: 0;
+      right: 100%;
+      width: 100%;
+      height:4px;
+    }   
+    .storagesize{
+        height:unset!Important;
+    }
+    </style>
+    <script>
+    window.addEventListener("load", () => {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("muse-service-worker.js",{scope:"/current/muse/current/"}).then(function (registration){
+          console.log('Service worker registered successfully');
+        }).catch(function (e){
+          console.error('Error during service worker registration:', e);
+        });      }
+    }); 
+    /*var installButton;
+    window.addEventListener("beforeinstallprompt", function(beforeInstallPromptEvent) {
+        beforeInstallPromptEvent.preventDefault();
+        installButton.addEventListener("click", function(mouseEvent){
+            beforeInstallPromptEvent.prompt();
+        });
+      installButton.hidden = false; // Make button operable
+    });*/
+    window.addEventListener("appinstalled", (evt) => {
+      console.log('PWA installed');
+    });
+    window.paceOptions = {
+        ajax: false,
+        restartOnRequestAfter: false,
+        async: true
+    };
+    </script>    
+    <script src="assets/js/pace.min.old.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    
+    <meta name="msapplication-TileColor" content="#0179d4">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#0179d4">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta http-equiv="Cache-Control" content="public, max-age=0, must-revalidate">
+    <meta name="robots" content="all">
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap&subset=cyrillic" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" >
+    <link rel="stylesheet" href="assets/css/animate.css" >
+    <link rel='stylesheet' href='assets/css/spectrum.css'>
+    <link rel="stylesheet" href="assets/css/editoronly.css" type="text/css" >
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src='assets/js/spectrum.js'></script>
+    <script src="assets/js/js.cookie.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src='assets/js/rangeslider.min.js'></script>
+    <script src='assets/js/html2canvas.min.js'></script>
+    <script src='assets/js/jszip.min.js' defer ></script>
+    <script src='assets/js/FileSaver.js' defer ></script>
+    <script src='assets/js/ntc.js' defer ></script>
+    <script src="assets/js/muuri/0.9.1/web-animations.min.js"></script>
+    <script src="assets/js/muuri/0.9.1/muuri.min.js"></script>
+    <script src="assets/js/localforage.min.js"></script>
+</head>
+<body class="panel">
+<nav id="banner" class="banner navbar-fixed-top navbar navbar-expand-lg navbar-dark bg-dark" data-text=""><button onclick="showDialog('','download',false)" id="buildbtn"><lang ru="Скачать дизайн">Download design</lang></button></nav>
+<iframe src="page.php" id="mainpane" title="Docsite Muse" onload="iframeLoaded()"></iframe>
+<div id="zanaves"></div>
+<div id="navpane"></div>
+<div id="rightpane" data-simplebar></div>
+<span class="muse-copyright"></span>
+<div id="dialog"><div id="dialog-fon"></div><div id="dialog-window" class="animated fadeIn"><span id="dialogLogo"></span><a id="closeDialog" onclick="hideDialog()"></a><div id="dialog-window-container"></div></div></div>
+<div id="picker"></div>
+<div class="iframeloader"></div>
+<svg id="svgline">
+    <use xlink:href="#line"/>
+    <use xlink:href="#svgend"/>
+    <use xlink:href="#svgstart"/>
+    <path d="M -10 -10 C -20 -20, -40 -20, -50 -10" id="line" fill="transparent">
+        <animate attributeName="stroke-dashoffset" values="0 2000" dur="3s" repeatCount="indefinite" />
+    </path>
+    <circle id="svgstart" cx="-5" cy="-5" r="4"/><circle id="svgend" cx="-5" cy="-5" r="4"/>
+    <rect id="svgrect" />
+ </svg>
+<div id="bottompane"></div> 
+<canvas id="canv"></canvas>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   ym(52382599, "init", {
+        id:52382599,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<script>gui();</script>
+<div class="curtain curtain-left"><span></span></div>
+<div class="curtain curtain-top"><span></span></div>
+<div class="curtain curtain-right"><span></span></div>
+<div class="curtain curtain-bottom"><span></span></div>
+</body>
+</html>
